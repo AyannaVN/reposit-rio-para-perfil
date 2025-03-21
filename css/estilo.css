@@ -92,7 +92,7 @@ body {
     background-color: white;
 }
 
-.detalhes, .sobre-mim {
+.detalhes, .sobre-mim {   /*  ------------------------------------------------------------------------------------------------------------*/
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
@@ -124,7 +124,7 @@ h2 {
 .contate-me:hover {
     color: white;
 }
-.laranja{
+.laranja{            /* cor personalizada para o título -------------------------------------------------------------------------------------------------------------------*/
     background-color: rgb(235, 94, 38);
     text-align: center;
 }
@@ -138,9 +138,7 @@ h2 {
         justify-content: space-between; /* Espaço entre os itens */
     }
 
-    .detalhes, .sobre-mim {
-        width: 45%; /* Ajusta a largura para telas maiores */
-    }
+    
     .perfil-container {
         display: flex;
         flex-direction: column-reverse; 
