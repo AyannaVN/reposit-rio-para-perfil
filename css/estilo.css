@@ -74,3 +74,51 @@ footer {
     margin-top: 20px;
     color: #888;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.perfil-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.detalhes, .sobre-mim {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 45%;
+    background-color: white;
+}
+
+h2 {
+    color: #2b9cd6; /* cor personalizada para o título */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #2b9cd6; /* cor das redes sociais */
+}
+
+.contate-me {
+    display: inline-block;
+    border: 1px solid #2b9cd6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #2b9cd6;
+    text-decoration: none;
+}
+
+.contate-me:hover {
+    background-color: #2b9cd6;
+    color: white;
+}
