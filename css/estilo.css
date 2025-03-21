@@ -85,9 +85,16 @@ body {
     padding: 20px;
     background-color: #f5f5f5;
 }
+.social-img-media{
+    display: flex;
+    justify-content: space-between;
+}
+.img-social{
+    whidth: 10px;
+    height: 10px;
+}
 
 .detalhes, .sobre-mim {
-    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
