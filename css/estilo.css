@@ -87,8 +87,9 @@ body {
     justify-content: space-between;
 }
 .img-social{
-    whidth: 10px;
-    height: 10px;
+    whidth: 30px;
+    height: 30px;
+    background-color: white;
 }
 
 .detalhes, .sobre-mim {
