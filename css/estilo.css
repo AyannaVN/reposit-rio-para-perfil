@@ -125,4 +125,8 @@ h2 {
 }
 .laranja{
     background-color: rgb(235, 94, 38);
+    text-align: center;
+}
+.branco{
+    color:white
 }
