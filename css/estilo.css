@@ -132,7 +132,7 @@ h2 {
     color:white
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .perfil-container {
         flex-direction: row; /* Muda para linha em telas maiores */
         justify-content: space-between; /* Espaço entre os itens */
@@ -141,31 +141,10 @@ h2 {
     .detalhes, .sobre-mim {
         width: 45%; /* Ajusta a largura para telas maiores */
     }
+    .perfil-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
 }
 
-.social-media {
-    margin-top: 10px;
-}
-
-.social-media a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: #d67e2b; /* cor das redes sociais */
-}
-
-.contate-me {
-    display: inline-block;
-    border: 1px solid #d66f2b;
-    border-radius: 5px;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-.contate-me:hover {
-    color: white;
-}
-.perfil-container {
-    display: flex;
-    flex-direction: column-reverse; 
-    align-items: center; 
-}
