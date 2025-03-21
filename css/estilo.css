@@ -91,12 +91,12 @@ body {
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
-    width: 45%;
+    width: 70%;
     background-color: white;
 }
 
 h2 {
-    color: #2b9cd6; /* cor personalizada para o título */
+    color: #000000; /* cor personalizada para o título */
 }
 
 .social-media {
@@ -106,7 +106,7 @@ h2 {
 .social-media a {
     margin-right: 10px;
     text-decoration: none;
-    color: #2b9cd6; /* cor das redes sociais */
+    color: #d67e2b; /* cor das redes sociais */
 }
 
 .contate-me {
