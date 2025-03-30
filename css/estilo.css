@@ -1,19 +1,44 @@
-/* Estilos Gerais */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
-    margin: 0;
-    padding: 2rem; 
+/* Variáveis de cores */
+:root {
+    --background-color: #f3f4f6;
+    --text-color: #000;
+    --header-color: #007bff;
+    --button-bg-color: #007bff;
+    --button-hover-bg-color: #0056b3;
 }
 
-/* Estilo do Cabeçalho */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+}
+
+.dark-mode {
+    --background-color: #121212;
+    --text-color: #fff;
+    --header-color: #90caf9;
+    --button-bg-color: #333;
+    --button-hover-bg-color: #555;
+    --container-bg-color: #000; 
+}
+
+.dark-mode .contate-me {
+    color: #ffffff; 
+}
+
+/* Estilos Gerais */
+header h1 {
+    color: var(--header-color);
+}
+
 header {
     text-align: center;
     margin-bottom: 2rem; 
 }
 
 h1 {
-    color: #007bff;
     font-size: clamp(1.5rem, 5vw, 2.5rem); 
 }
 
@@ -57,7 +82,8 @@ img {
 
 /* Botão */
 button {
-    color: white;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
     border: none;
     border-radius: 0.5rem; 
     padding: 0.625rem 1rem; 
@@ -67,7 +93,14 @@ button {
 }
 
 button:hover {
-    background-color: #00060c;
+    background-color: var(--button-hover-bg-color);
+}
+
+.topo-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
 }
 
 a {
@@ -104,6 +137,10 @@ footer {
     padding: 2rem;
     margin: 1rem; 
     width: 70%; 
+}
+
+.perfil-container, .sobre-mim {
+    background-color: var(--container-bg-color); 
 }
 
 .social-media {
